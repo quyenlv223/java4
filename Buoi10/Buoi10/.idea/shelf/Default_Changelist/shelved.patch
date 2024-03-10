@@ -1,0 +1,28 @@
+Index: ../../database/Buoi11.sql
+===================================================================
+diff --git a/../../database/Buoi11.sql b/../../database/Buoi11.sql
+deleted file mode 100644
+--- a/../../database/Buoi11.sql	(revision da51e69d634a9933146beb46074b01ff19e80099)
++++ /dev/null	(revision da51e69d634a9933146beb46074b01ff19e80099)
+@@ -1,20 +0,0 @@
+-CREATE DATABASE demoBuoi11;
+-
+-USE demoBuoi11;
+-
+-CREATE TABLE may_tinh(
+-	ma UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
+-	ten nvarchar(100),
+-	gia float,
+-	bo_nho nvarchar(100),
+-	mau_sac nvarchar(100),
+-	hang nvarchar(100),
+-	mieu_ta nvarchar(100)
+-)
+-CREATE TABLE sinh_vien (
+-                           ma UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
+-                           ten VARCHAR(100) NULL,
+-                           tuoi BIGINT NULL,
+-                           dia_chi VARCHAR(100) NULL,
+-                           gioi_tinh BIT NULL
+-)
+\ No newline at end of file
